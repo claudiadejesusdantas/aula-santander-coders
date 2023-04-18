@@ -1,24 +1,26 @@
-let numero = 10;
+let numero = document.getElementsByTagName('button');
 
-let tagDisplay = document.getElementById("display");
-tagDisplay.innerText = numero;
+let resultado = document.getElementById("resultado");
+resultado.innerText = numero;
 
-function setarZero() {
-    numero = 0;
-    tagDisplay.innerText = 0;
+function setNumber{
+    console.log(numero);
+    console.log(resultado);
+
 }
 
-function setarUm() {
-    numero = 1;
-    tagDisplay.innerText = 1;
-}
 
-function setarDois() {
-    numero = 2;
-    tagDisplay.innerText = 2;
-}
+// function setarZero() {
+//     numero = 0;
+//     resultado.innerText = 0;
+// }
 
-function adicionarUm() {
-    numero = numero + 1;
-    tagDisplay.innerText = numero;
-}
+// function setarUm() {
+//     numero = 1;
+//     resultado.innerText = 1;
+// }
+
+// function setarDois() {
+//     numero = 2;
+//     resultado.innerText = 2;
+// }
